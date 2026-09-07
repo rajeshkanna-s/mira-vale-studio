@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react';
-const img={portrait:'/assets/portrait.png',coast:'/assets/coast.png',wedding:'/assets/wedding.png'};
+const img={portrait:'./assets/portrait.png',coast:'./assets/coast.png',wedding:'./assets/wedding.png'};
 const works=[['The quiet between','Portraits','portrait'],['A love, in bloom','Weddings','wedding'],['An Italian reverie','Travel','coast'],['Softly, she becomes','Editorial','portrait'],['Where the light stays','Travel','coast']];
 const stories=[['The Editorial','Editorial','portrait'],['Wildly in Love','Weddings','wedding'],['Places We Chase','Travel','coast']];
 const quotes=[['Mira has an incredible gift—she sees the in-between moments and turns them into art. We felt so seen, so comfortable, and the images brought us to tears.','Olivia & James','Amalfi Coast, Italy'],['There is a quiet honesty to every frame. Mira captured our story with such care, warmth, and extraordinary attention to the little things.','Sophie & Daniel','Tuscany, Italy'],['From the first conversation to the final gallery, everything felt considered. These photographs are more beautiful than we could have imagined.','Elena','London, England']];
